@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(213, 160, 25);
+}
+.logo{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.header{
+    display: flex;
+    top: 0; left: 0; right: 0;
+    padding: 1rem 7%;
+    
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.header .navbar a{
+    padding-left: 2em;
+    color: #eee;
+
+}
+.navbar a:hover{
+    color: red;
+    transition: 1s;
+}
+
+section{
+    padding: 3em;
+}
+.body{
+    margin-top: 1em;
+}
+.bar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 50, 50);
+    width: 60%;
+    height: 3em;
+    border: 5em;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+    
+}
+.bar ul{ 
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    color:#eee;
+    padding-top: 5px;
+    border-radius: 7px;
+    background-color:  rgb(41, 50, 50);
+}
+ul li {
+    background-color:   rgb(41, 50, 50);
+}
+h6{
+    background-color:   rgb(41, 50, 50);
+}
+.bar h6{
+    padding-top: 8px;
+    padding-left: 5em;
+    font-size: 1em;
+    background-color:   rgb(41, 50, 50);
+}
+ul{
+    font-size: 10px;
+}
+ul li{
+    list-style-position: inside;
+    text-align: center ;
+    justify-content: center;
+    padding-left: 1.5em;
+    padding-top: 1em;
+}
+
+
+.icon{
+    justify-content: space-between;
+    margin: 0 5em;
+}
+input{
+    color: #eee;
+    width: 20em;
+    height: 2em;
+    margin-left: 2em;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(41, 50, 50);
+}
+
+.body h1{
+    font-size: 5em;
+}
+
+img{
+    border-radius: 5em;
+    width: 25em;
+    padding-left: 1.5em;
+}
+
+footer{
+    padding-left: 2em;
+}
+
+footer a{
+    justify-content: space-between;
+    margin: 0 0.3em;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+strong{
+    font-size: 2em;
+    color: red;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: red;
+    display: flex;
+  }
