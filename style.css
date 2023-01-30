@@ -69,8 +69,9 @@ h6{
     background-color:   rgb(41, 50, 50);
 }
 .bar h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 8px;
-    padding-left: 5em;
+    padding-left: 3em;
     font-size: 1em;
     background-color:   rgb(41, 50, 50);
 }
@@ -99,7 +100,11 @@ input{
     text-align: center;
     background-color: rgb(41, 50, 50);
 }
-
+.cont :hover{
+    color: red;
+    transition: 1.5s;
+    cursor: pointer;
+}
 .body h1{
     font-size: 5em;
 }
@@ -122,6 +127,12 @@ footer a{
     font-size: 12px;
 
 }
+
+footer a:hover{
+    color: red;
+    transition: 1.5s;
+}
+
 strong{
     font-size: 2em;
     color: red;
